@@ -1,8 +1,12 @@
-st = input()
+s = input()
 ans = ''
-for i in st:
-	if i != '<':
-		ans = ans + i
-	else:
-		ans = ans[:len(ans)-1]
+cList = []
+for i in s:
+    if i != '<':
+        cList.append(i)
+    else:
+        cList.pop()
+for i in cList:
+    ans = ans + i
+    
 print(ans)
