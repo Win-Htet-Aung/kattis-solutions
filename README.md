@@ -1,2 +1,2 @@
-# kattis-solutions
-my work on kattis problems
+# Kattis-Solutions
+ my work on kattis problems
